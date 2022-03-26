@@ -35,7 +35,6 @@ xhr.onload = function()
         }
         word = randomArray[Math.floor(Math.random()*randomArray.length)]
         randomWord = word.toUpperCase()
-        console.log(randomWord);
         randomWordArray  = [];
         for(let i = 0; i < word.length; i++)
         {
@@ -258,57 +257,7 @@ enter.addEventListener("click", function()
         
     } 
 
-    // if(elementString.length == 5 && dictionary.includes(elementString.toLowerCase()))
-    // {
-    //     console.log("I am trying to win")
-    //     for(let i = 0; i <= 30; i++)
-    //     {
-    //         console.log("I am still trying to win");
-    //         if(wordButtonsArr[i].className != "btn btn-success m-1")
-    //         {
-    //             break;
-    //         }
-    //         console.log("You have won");
-    //         setTimeout(() => 
-    //         {   
-    //         let win = document.getElementById("win");
-    //         document.body.className = "bg-info"
-    //         document.body.innerHTML = `
-    //         <div class="container card my-4 p-4 bg-light">
-    //         <h1>Congratulations!! You Win</h1>
-    //         </div>
-    //         `
-    //             setTimeout(() => 
-    //             {
-    //                 window.location.reload();
-    //             }, 3000); 
-    //         }, 2000);
-            
-    //     }
-
-    // if(elementString == randomWord)
-    // {
-    //     console.log(elementString);
-    //     setTimeout(() => 
-    //     {
-    //         let win = document.getElementById("win");
-    //         document.body.className = "bg-info"
-    //         document.body.innerHTML = `
-    //         <div class="container card my-4 p-4 bg-light">
-    //         <h1>Congratulations!! You Win</h1>
-    //         </div>
-    //         `
-    //         setTimeout(() => 
-    //         {
-    //             window.location.reload();
-    //         }, 3000); 
-    //     }, 2000);
-        
-    // }
-})
-
-
-
+    
 function backSpace(index)
 {
     if(elementString.length <= 5)
