@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>SHOWORDLE</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><span>SHOWORDLE</span></li>
+            <li><button id="daily" class="chooseBox">Daily</button></li>
+            <li><button id="practice" class="chooseBox">Practice</button></li>
+        </ul>
+    </nav>
+    
+<div id="board" class="d-flex">
+    <div id="win" class="container" >
+
+        <div id="firstRow" class="container d-flex">
+            <button id="row1N1"class="btn-light"></button>
+            <button id="row1N2"class="btn-light"></button>
+            <button id="row1N3"class="btn-light"></button>
+            <button id="row1N4"class="btn-light"></button>
+            <button id="row1N5"class="btn-light"></button>
+        </div>
+        
+        <div id="secondRow" class="container d-flex">
+            <button id="row2N1"class="btn-light"></button>
+            <button id="row2N2"class="btn-light"></button>
+            <button id="row2N3"class="btn-light"></button>
+            <button id="row2N4"class="btn-light"></button>
+            <button id="row2N5"class="btn-light"></button>
+        </div>
+        <div id="thirdRow" class="container d-flex">
+            <button id="row3N1"class="btn-light"></button>
+            <button id="row3N2"class="btn-light"></button>
+            <button id="row3N3"class="btn-light"></button>
+            <button id="row3N4"class="btn-light"></button>
+            <button id="row3N5"class="btn-light"></button>
+        </div>
+        <div id="fourthRow" class="container d-flex">
+            <button id="row4N1"class="btn-light"></button>
+            <button id="row4N2"class="btn-light"></button>
+            <button id="row4N3"class="btn-light"></button>
+            <button id="row4N4"class="btn-light"></button>
+            <button id="row4N5"class="btn-light"></button>
+        </div>
+        <div id="fifthRow" class="container d-flex">
+            <button id="row5N1" class="btn-light"></button>
+            <button id="row5N2" class="btn-light"></button>
+            <button id="row5N3" class="btn-light"></button>
+            <button id="row5N4" class="btn-light"></button>
+            <button id="row5N5" class="btn-light"></button>
+        </div>
+        <div id="sixthRow" class="container d-flex">
+            <button id="row6N1"class="btn-light"></button>
+            <button id="row6N2"class="btn-light"></button>
+            <button id="row6N3"class="btn-light"></button>
+            <button id="row6N4"class="btn-light"></button>
+            <button id="row6N5"class="btn-light"></button>
+        </div>
+        <div id="seventhRow" style="display: none;">
+          <button id="row7N1"class="btn-light"></button>
+          <button id="row7N2"class="btn-light"></button>
+          <button id="row7N3"class="btn-light"></button>
+          <button id="row7N4"class="btn-light"></button>
+          <button id="row7N5"class="btn-light"></button>
+        </div>
+      </div>
+</div>
+<div id="keyBoard" class="container">
+<div id="keyFirstrow" class="d-flex">
+<button id="Q" class="btn-danger">Q</button>
+<button id="W"  class="btn-danger">W</button>
+<button id="E"  class="btn-danger">E</button>
+<button id="R"  class="btn-danger">R</button>
+<button id="T"  class="btn-danger">T</button>
+<button id="Y"  class="btn-danger">Y</button>
+<button id="U"  class="btn-danger">U</button>
+<button id="I"  class="btn-danger">I</button>
+<button id="O"  class="btn-danger">O</button>
+<button id="P" class="btn-danger">P</button>            
+</div>         
+<div id="keySecondrow " class="d-flex">
+<button id="A" class="btn-danger">A</button>
+<button id="S" class="btn-danger">S</button>
+<button id="D" class="btn-danger">D</button>
+<button id="F" class="btn-danger">F</button>
+<button id="G" class="btn-danger">G</button>
+<button id="H" class="btn-danger">H</button>
+<button id="J" class="btn-danger">J</button>
+<button id="K" class="btn-danger">K</button>
+<button id="L" class="btn-danger">L</button>            
+</div>      
+<div id="keyLastrow"class=" d-flex">
+    <button id="back"class="btn-info">BACK</button>
+    <button id="Z"class="btn-danger">Z</button>
+    <button id="X"class="btn-danger">X</button>
+    <button id="C"class="btn-danger">C</button>
+    <button id="V"class="btn-danger">V</button>
+    <button id="B"class="btn-danger">B</button>
+    <button id="N"class="btn-danger">N</button>
+    <button id="M"class="btn-danger">M</button>
+    <button id="enter"class="btn-info">ENTER</button>
+              
+</div>
+</div>
+</body>
+
+<script src="practice.js"></script>
+
+</html>

@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav
+{
+    background-color: rgb(63, 62, 61);
+    color: rgb(214, 225, 225);
+    padding: 1vh;
+}
+
+ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;;
+}
+
+span
+{
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-right: 15px;
+    font-size: 5vh;
+}
+#daily
+{
+    padding: 5px;
+    border: 1px ;
+    margin-left: 10px;
+    margin-top: 3px;
+    background-color: rgb(214, 225, 225);
+    color: rgb(63, 62, 61);
+    
+}
+#practice
+{
+    padding: 5px;
+    border: 1px ;
+    margin-left: 10px;
+    margin-top: 3px;
+    background-color: rgb(63, 62, 61);
+    color: rgb(214, 225, 225);
+}
+.btn-light
+{
+    height: 45px;
+    width: 45px;
+    margin-top: 2.5px;
+    margin-left: 5px;
+    margin-bottom: 2.5px;
+    color: rgb(63, 62, 61);
+    background-color: rgb(214, 225, 225);
+    flex: 1;
+}
+
+#board
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.d-flex
+{
+    display: flex;
+    justify-content: center;
+}
+
+#keyBoard
+{
+    margin-top: 20px;
+}
+
+.btn-danger
+{
+    height: 50px;
+    width: 40px;
+    background-color: rgb(63, 62, 61);
+    color: rgb(214, 225, 225);
+    border: 1px solid rgb(63, 62, 61);
+    margin: 2.5px;
+
+}
+
+.btn-Bwarning
+{
+    height: 45px;
+    width: 45px;
+    margin-top: 2.5px;
+    margin-left: 5px;
+    margin-bottom: 2.5px;
+    color: rgb(39, 110, 29);
+    background-color: rgb(252, 241, 95);
+    flex: 1;
+}
+
+.btn-Bsuccess
+{
+    height: 45px;
+    width: 45px;
+    margin-top: 2.5px;
+    margin-left: 5px;
+    margin-bottom: 2.5px;
+    color: rgb(252, 241, 95);
+    background-color: rgb(39, 110, 29);
+    flex: 1;
+}
+
+.btn-Bsecondary
+{
+    height: 45px;
+    width: 45px;
+    margin-top: 2.5px;
+    margin-left: 5px;
+    margin-bottom: 2.5px;
+    color: rgb(218, 216, 214);
+    background-color: rgba(63, 62, 61, 0.5);
+    flex: 1;
+}
+
+    .btn-warning
+    {
+        height: 50px;
+        width: 40px;
+        border: 1px solid rgb(63, 62, 61);
+        color: rgb(39, 110, 29);
+        background-color: rgb(252, 241, 95);
+        margin: 2.5px;   
+    }
+
+    .btn-success
+    {
+        height: 50px;
+        width: 40px;
+        border: 1px solid rgb(63, 62, 61);
+        color: rgb(252, 241, 95);
+        background-color: rgb(39, 110, 29);
+        margin: 2.5px; 
+    }
+
+    .btn-Blight
+    {
+        height: 50px;
+        width: 40px;
+        background-color: rgba(63, 62, 61, 0.5);
+        color: rgb(214, 225, 225);
+        border: 1px solid rgb(63, 62, 61);
+        margin: 2.5px;
+
+    }
+    .btn-info
+    {
+        height: 50px;
+        width: 60px;
+        background-color: rgb(63, 62, 61);
+        color: rgb(214, 225, 225);
+        text-align: center;
+        margin: 2.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-info span
+    {
+        font-size: small;
+        margin-left: 10px;
+    }
+    .h4
+    {
+        margin: 10px;
+    }
+    .bot
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .bot .btn-primary
+    {
+        height: 30px;
+        width: 80px;
+        background-color: rgb(63, 62, 61);
+        color: rgb(214, 225, 225);
+    }
+    .bot .btn-third
+    {
+        height: 30px;
+        width: 30px;
+        color: rgb(63, 62, 61);
+        background-color: rgb(214, 225, 225);
+    }
+    .j2
+    {
+        margin-left: 20px;
+    }
+    .btn-last
+    {
+        margin-top: 10px;
+    }
+    #newGame
+    {
+        height: 50px;
+        width: 100px;
+        color: rgb(252, 241, 95);
+        background-color: rgb(39, 110, 29);
+    }
+    #share
+    {
+        height: 50px;
+        width: 100px;
+        color: rgb(252, 241, 95);
+        background-color: rgb(39, 110, 29);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #share span
+    {
+        font-size: small;
+    }
+@media screen and (max-width: 800px) {
+    *
+    {
+        font-size: 18px;
+    }
+    span
+    {
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-right: 15px;
+    font-size: 3vh;
+    }
+    .chooseBox
+    {   
+    padding: 3px;
+    border: 1px ;
+    margin-left: 5px;
+    margin-top: 3px;
+    background-color: rgb(214, 225, 225);
+    color: rgb(63, 62, 61);
+    }
+    #board
+    {   
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    }
+    .btn-danger
+    {
+    height: 50px;
+    width: 35px;
+    background-color: rgb(63, 62, 61);
+    color: rgb(214, 225, 225);
+    border: 1px solid rgb(63, 62, 61);
+    margin: 2.5px;
+
+    }
+    .btn-warning
+{
+    height: 50px;
+    width: 35px;
+    border: 1px solid rgb(63, 62, 61);
+    color: rgb(39, 110, 29);
+    background-color: rgb(252, 241, 95);
+    margin: 2.5px;   
+    }
+
+.btn-success
+{
+    height: 50px;
+    width: 35px;
+    border: 1px solid rgb(63, 62, 61);
+    color: rgb(252, 241, 95);
+    background-color: rgb(39, 110, 29);
+    margin: 2.5px; 
+}
+
+.btn-Blight
+{
+    height: 50px;
+    width: 35px;
+    background-color: rgba(63, 62, 61, 0.5);
+    color: rgb(214, 225, 225);
+    border: 1px solid rgb(63, 62, 61);
+    margin: 2.5px;
+
+}
+.btn-info
+{
+    font-size: 12px;
+    height: 50px;
+    width: 70px;
+    background-color: rgb(63, 62, 61);
+    color: rgb(214, 225, 225);
+    border: 1px solid rgb(63, 62, 61);
+    margin: 2.5px;
+}
+.btn-light
+{
+    height: 60px;
+    width: 60px;
+    margin-top: 2.5px;
+    margin-left: 5px;
+    margin-bottom: 2.5px;
+    color: rgb(63, 62, 61);
+    background-color: rgb(214, 225, 225);
+    flex: 1;
+}
+.btn-Bwarning
+{
+    height: 60px;
+    width: 60px;
+    margin-top: 2.5px;
+    margin-left: 5px;
+    margin-bottom: 2.5px;
+    color: rgb(39, 110, 29);
+    background-color: rgb(252, 241, 95);
+    flex: 1;
+}
+
+.btn-Bsuccess
+{
+    height: 60px;
+    width: 60px;
+    margin-top: 2.5px;
+    margin-left: 5px;
+    margin-bottom: 2.5px;
+    color: rgb(252, 241, 95);
+    background-color: rgb(39, 110, 29);
+    flex: 1;
+}
+
+.btn-Bsecondary
+{
+    height: 60px;
+    width: 60px;
+    margin-top: 2.5px;
+    margin-left: 5px;
+    margin-bottom: 2.5px;
+    color: rgb(218, 216, 214);
+    background-color: rgba(63, 62, 61, 0.5);
+    flex: 1;
+}
+
+}
