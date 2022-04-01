@@ -34,7 +34,7 @@ else
     if(todayDate != today)
     {
         localStorage.removeItem("shoWordleDaily");
-        localStorage.setItem("shoWordleDate", JSON.stringify(todayDate));
+        localStorage.setItem("shoWordleDate", JSON.stringify(today));
     }
 }
 
