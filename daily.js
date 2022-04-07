@@ -126,7 +126,7 @@ xhr.onload = function()
         {
             randomArray.push(dictArray[i]);
         }
-        word = randomArray[(day * day) + date_num * month - year]
+        word = randomArray[(day * day) + date_num * month - year + 100]
         randomWord = word.toUpperCase();
         shoObj["randomWord"] = randomWord;
         localStorage.setItem("shoWordleDaily", JSON.stringify(shoObj));
